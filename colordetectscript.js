@@ -130,9 +130,7 @@ const blackvalue = document.getElementById('blackvalue');
 
 eyedropper.onclick = function() {
   if (!window.EyeDropper) {
-    resultElement.textContent =
-      "Your browser does not support the EyeDropper API";
-    return;
+    console.log("Your browser does not support the EyeDropper API");
   }
   const eyeDropper = new window.EyeDropper();
   eyeDropper.open().then((result) => {
