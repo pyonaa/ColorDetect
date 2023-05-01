@@ -354,7 +354,6 @@ body {
   height: 10vh;
   width: 10vh;
   border: black 1px solid;
-  content-visibility: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,7 +366,6 @@ body {
 #palette div:hover {
   width: 16vh;
   transition: .5s;
-  content-visibility: visible;
 }
 
 #palette div:not(:hover) {
